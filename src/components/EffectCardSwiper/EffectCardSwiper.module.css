@@ -7,8 +7,12 @@
 }
 .swiperButtonNext {
     @apply right-0 md:-right-8;
+    z-index: 1; /* Lower value to push it behind */
+
 }
 
 .swiperButtonPrev {
     @apply left-0 md:-left-8;
+    z-index: 1; /* Lower value to push it behind */
+
 }

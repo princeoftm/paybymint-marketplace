@@ -18,7 +18,6 @@ import {
 import detectEthereumProvider from '@metamask/detect-provider';
 import { DeFiWeb3Connector } from 'deficonnect';
 import WalletConnectProvider from '@deficonnect/web3-provider';
-import cdcLogo from '../../assets/cdc_logo.svg';
 import { toast } from 'react-toastify';
 // import {createSuccessfulTransactionToastContent, sliceIntoChunks} from '../utils';
 // import { nanoid } from 'nanoid';
@@ -75,7 +74,7 @@ export const connectAccount = (firstRun = false) =>
     const providerOptions = {
       injected: {
         display: {
-          logo: 'https://github.com/MetaMask/brand-resources/raw/master/SVG/metamask-fox.svg',
+          logo: '../../assets/MetaMask-icon-fox.svg',
           name: 'MetaMask',
           description: 'Connect with MetaMask in your browser',
         },

@@ -31,6 +31,7 @@ const EffectCardSwiper = ({ items }) => {
             <div
                 ref={navigationNextRef}
                 className={styles.swiperButtonNext}
+                
             >
                 <Image
                     src="/assets/icons/arrow-next.svg"
